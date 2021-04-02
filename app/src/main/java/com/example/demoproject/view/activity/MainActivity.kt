@@ -12,7 +12,7 @@ class MainActivity : BaseActivity() {
     override fun initActivity() {
        val navController = findNavController(this, R.id.nav_host_fragment)
        setupActionBarWithNavController(this, navController)
-        Log.e("first log","testing")
+
 
     }
 
